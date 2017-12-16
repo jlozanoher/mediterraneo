@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carbohydrate">Carbohydrate (g)</string>
+    <string name="cholesterol">Cholesterol (mg)</string>
+    <string name="energy">Energy (Kcal)</string>
+    <string name="fat">Fat (g)</string>
+    <string name="fiber">Fiber (g)</string>
+    <string name="iron">Iron (mg)</string>
+    <string name="potassium">Potassium (mg)</string>
+    <string name="protein">Protein (g)</string>
+    <string name="total_to_pay">Total payment</string>
+    <string name="vitamin_a">Vitamin A (μg)</string>
+    <string name="vitamin_b12">Vitamin B12 (μg)</string>
+    <string name="vitamin_b6">Vitamin B6 (mg)</string>
+    <string name="vitamin_c">Vitamin C (mg)</string>
+    <string name="vitamin_e">Vitamin E (mg)</string>
+    <string name="action_settings">Settings</string>
+    <string name="a_pagar_en_carta">Total payment:</string>
+    <string name="content">Nutritional content</string>
+    <string name="properties">Medicinal properties</string>
+    <string name="title_my_order">My order</string>
+    <string name="menu_add">Add to my order</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_remove">Remove from order</string>
+    <string name="menu_see">See</string>
+    <string name="action_invite">Invite friends</string>
+    <string name="added_one">+1</string>
+    <string name="order_eliminated">order eliminated</string>
+    <string name="toggled_favorites">Toggled favorite</string>
+    <string name="invitation">Offer !!!\nI invite you to Cocktail and Tapa in Restaurante HABANERA\nMake reservation\n72029941\nThe rest goes for you</string>
+    <string name="earn_money">Earn money !</string>
+    <string name="earn_money_maecenas">Join MAECENAS!</string>
+    <string name="maecenas_description">Maecenas is everyone who wants to invite their friends to consume for free a cocktail and a tapa in Habanera  \n \n
+         Maecenas opens an account for you, where you accumulate a credit from the friends you send us. \n \n
+         Become a maecenas by SMS</string>
+    <string name="maecenas_request">I request to register as a maecenas\nmy name is\n</string>
+    <string name="join_maecenas">Join maecenas!</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select the language</string>
+    <string name="location">Locate on map</string>
+    <string name="title_description">Description</string>
+    <string name="description">
+         Hours: 12:00 M to 12:00 AM.\n\n
+         Phone: +53 7 2029941\n
+         Mobile: +53 5118723\n\n
+         HABANERA, founded on November 6, 2015, is located at 16 #506 between 5th and 7th Avenue,
+         Miramar, Beach; An emblematic area of the city when it\'s about good taste,
+         Refinement and elegance.</string>
+    <string name="description2">The Restaurant, with an ample portal and three lovely salons.
+         It features an elegant and air-conditioned dinner-room,
+         With facilities for presentations or meetings of work.
+         Also, a large patio with an outdoor bar.</string>
+    <string name="description3">The Culinary Offers, start from the Republican era style,
+         The cooking of the house recreates the favorite dishes by improving them,
+         renewing them and styling them according to the new culinary tendencies
+         and the art of its breezy Chef.</string>
+    <string name="description4">Next to the De La Casa card,
+         An Eco-Menu of dishes of the ecological cooking completes the culinary panorama.</string>
+    <string name="description5">The Bar, equipped with the most varied drinks from any part of the planet and a wide range of cocktails,
+         cubans in their majority, offers the possibility of tasting, perceiving, tasting,
+        comparing and evaluating with utter tranquility the subtler flavors hidden in each of their offerings.</string>
+    <string name="about_us">About Us</string>
+    <string name="read_more">Read more</string>
+    <string name="staff">Staff</string>
+    <string name="my_order_erased">\'My order\' erased</string>
+</resources>

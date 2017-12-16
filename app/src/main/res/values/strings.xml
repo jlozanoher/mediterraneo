@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">Mediterraneo</string>
+    <string name="action_settings">Configuración</string>
+    <string name="total_to_pay">Total a pagar</string>
+    <string name="energy">Energía (Kcal)</string>
+    <string name="protein">Proteina (g)</string>
+    <string name="fat">Grasa (g)</string>
+    <string name="cholesterol">Colesterol (mg)</string>
+    <string name="carbohydrate">Carbohidratos (g)</string>
+    <string name="fiber">Fibra (g)</string>
+    <string name="vitamin_a">Vitamina A (μg)</string>
+    <string name="vitamin_b6">Vitamina B6 (mg)</string>
+    <string name="vitamin_b12">Vitamina B12 (μg)</string>
+    <string name="vitamin_c">Vitamina C (mg)</string>
+    <string name="vitamin_e">Vitamina E (mg)</string>
+    <string name="potassium">Potasio (mg)</string>
+    <string name="iron">Hierro (mg)</string>
+    <string name="a_pagar_en_carta">Total a pagar:</string>
+    <string name="content">Contenido nutricional</string>
+    <string name="properties">Propiedades curativas</string>
+    <string name="title_my_order">Mi orden</string>
+    <string name="menu_remove">Remover del pedido</string>
+    <string name="menu_add">Agregar al pedido</string>
+    <string name="menu_see">Ver</string>
+    <string name="menu_favorite">Favorito</string>
+    <string name="action_invite">Invitar amigos</string>
+    <string name="added_one">+1</string>
+    <string name="order_eliminated">orden eliminada</string>
+    <string name="toggled_favorites">Cambiado favorito</string>
+    <string name="invitation">Oferta!!!\nTe invito a Coctel y Tapa en Restaurante HABANERA\nHaz reserva\n72029941\nEl resto va por ti</string>
+    <string name="earn_money">Gana dinero !</string>
+    <string name="earn_money_maecenas">Únete a MECENAS!</string>
+    <string name="maecenas_description">Mecenas es todo aquel que desee invitar a sus amigos a consumir gratuitamente un coctel y una tapa en Habanera \n\n
+        Mecenas abre una cuenta para usted, donde acumula un crédito a partir de los amigos que nos envíe. \n\n
+        Hágase mecenas mediante un sms</string>
+    <string name="habanera_number" translatable="false">5355118723</string>
+    <string name="maecenas_request">Solicito registrarme como mecenas\nmi nombre es\n</string>
+    <string name="join_maecenas">Únete a mecenas!</string>
+    <string name="language">Lenguaje</string>
+    <string name="select_language">Seleccione el idioma</string>
+    <string name="location">Localizar en mapa</string>
+    <string name="invite_friends" translatable="false">invite_friends</string>
+    <string name="shared_language" translatable="false">language</string>
+    <string name="title_description">Descripción</string>
+    <string name="description">
+        Horario: 12:00 M a 12:00 AM.\n\n
+        Teléfono: +53 7 2029941\n
+        Móvil: +53 5118723\n\n
+        HABANERA, fundado el 6 de noviembre de 2015, se ubica en la calle 16 #506 entre 5ta y 7ma Avenida,
+        Miramar, Playa;  una zona emblemática de la ciudad cuando se trata de buen gusto,
+        refinamiento y elegancia. </string>
+    <string name="description2">El Restaurante, con un amplio portal y tres vistosos salones.
+        Presenta un elegante comedor reservado, climatizado,
+        con facilidades para presentaciones, propio de  reuniones de trabajo.
+        También, un amplio patio con un bar al aire libre.</string>
+    <string name="description3">Las Ofertas Culinarias, parten del estilo de la época republicana,
+        la cocina de la casa recrea sus platos favoritos actualizándolos,
+        renovándolos y estilizándolos de acuerdo a las nuevas tendencias culinarias
+        y al arte propio de su desenfadado Chef.</string>
+    <string name="description4">Junto a la carta De La Casa,
+        un Eco-Menú de platos de la cocina ecológica completa el panorama culinario. </string>
+    <string name="description5">El Bar, apertrechado con las más variadas bebidas de cualquier parte del planeta y una vasta gama de cócteles,
+        cubanos en su mayoría,  ofrece la posibilidad de catar, percibir, degustar,
+        comparar y evaluar con total tranquilidad los sabores más sutiles escondidos en cada una de sus ofertas.</string>
+    <string name="about_us">Acerca de nosotros</string>
+    <string name="read_more">Leer más</string>
+    <string name="staff">Personal</string>
+    <string name="staff_habanera" translatable="false">Staff Habanera</string>
+    <string name="my_order_erased">Borrada \'Mi orden\'</string>
+    <string name="menu_mediterraneo">Mediterraneo Havana</string>
+</resources>
