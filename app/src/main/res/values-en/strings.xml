@@ -41,26 +41,22 @@
     <string name="title_description">Description</string>
     <string name="description">
          Hours: 12:00 M to 12:00 AM.\n\n
-         Phone: +53 7 2029941\n
-         Mobile: +53 5118723\n\n
-         HABANERA, founded on November 6, 2015, is located at 16 #506 between 5th and 7th Avenue,
-         Miramar, Beach; An emblematic area of the city when it\'s about good taste,
-         Refinement and elegance.</string>
-    <string name="description2">The Restaurant, with an ample portal and three lovely salons.
-         It features an elegant and air-conditioned dinner-room,
-         With facilities for presentations or meetings of work.
-         Also, a large patio with an outdoor bar.</string>
-    <string name="description3">The Culinary Offers, start from the Republican era style,
-         The cooking of the house recreates the favorite dishes by improving them,
-         renewing them and styling them according to the new culinary tendencies
-         and the art of its breezy Chef.</string>
-    <string name="description4">Next to the De La Casa card,
-         An Eco-Menu of dishes of the ecological cooking completes the culinary panorama.</string>
-    <string name="description5">The Bar, equipped with the most varied drinks from any part of the planet and a wide range of cocktails,
-         cubans in their majority, offers the possibility of tasting, perceiving, tasting,
-        comparing and evaluating with utter tranquility the subtler flavors hidden in each of their offerings.</string>
+         Phone: +53 7 832 4894\n
+         </string>
+    <string name="description2">The Mediterranean-Havana restaurant offers a selection of fresh
+        and natural products that come directly from the sea and the land.</string>
+    <string name="description3">We are provided by local
+        farms and fisher boats, allowing us to count with own production and processing,
+        absent of preservatives and additives, controlling at every step the quality of what we offer.</string>
+    <string name="description4">Our culinary team combines Mediterranean cuisine traditions, on
+        the hands of Luigi, our Chef native of Sardinia, with the merge and experience of our
+        local cuisine.</string>
+    <string name="description5">We hope the passion we put in the food we prepare and the
+        service we offer, led you to enjoy this pleasant environment, full of Mediterranean
+        flavors, making you feel in family.</string>
     <string name="about_us">About Us</string>
     <string name="read_more">Read more</string>
     <string name="staff">Staff</string>
     <string name="my_order_erased">\'My order\' erased</string>
+    <string name="biopropiedades">Bioproperties</string>
 </resources>

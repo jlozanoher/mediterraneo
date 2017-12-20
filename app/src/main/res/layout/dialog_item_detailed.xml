@@ -120,6 +120,7 @@
                 android:text="descripción oferta"
                 android:textSize="@dimen/body"
                 android:textAlignment="center"
+                android:visibility="gone"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
             <Button
@@ -253,7 +254,7 @@
                 android:id="@+id/txtBiopropiedades"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Biopropiedades"
+                android:text="@string/biopropiedades"
                 android:gravity="center"
                 android:textSize="@dimen/caption"
                 android:visibility="gone"

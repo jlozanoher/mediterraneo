@@ -44,28 +44,24 @@
     <string name="title_description">Descripción</string>
     <string name="description">
         Horario: 12:00 M a 12:00 AM.\n\n
-        Teléfono: +53 7 2029941\n
-        Móvil: +53 5118723\n\n
-        HABANERA, fundado el 6 de noviembre de 2015, se ubica en la calle 16 #506 entre 5ta y 7ma Avenida,
-        Miramar, Playa;  una zona emblemática de la ciudad cuando se trata de buen gusto,
-        refinamiento y elegancia. </string>
-    <string name="description2">El Restaurante, con un amplio portal y tres vistosos salones.
-        Presenta un elegante comedor reservado, climatizado,
-        con facilidades para presentaciones, propio de  reuniones de trabajo.
-        También, un amplio patio con un bar al aire libre.</string>
-    <string name="description3">Las Ofertas Culinarias, parten del estilo de la época republicana,
-        la cocina de la casa recrea sus platos favoritos actualizándolos,
-        renovándolos y estilizándolos de acuerdo a las nuevas tendencias culinarias
-        y al arte propio de su desenfadado Chef.</string>
-    <string name="description4">Junto a la carta De La Casa,
-        un Eco-Menú de platos de la cocina ecológica completa el panorama culinario. </string>
-    <string name="description5">El Bar, apertrechado con las más variadas bebidas de cualquier parte del planeta y una vasta gama de cócteles,
-        cubanos en su mayoría,  ofrece la posibilidad de catar, percibir, degustar,
-        comparar y evaluar con total tranquilidad los sabores más sutiles escondidos en cada una de sus ofertas.</string>
+        Teléfono: +53 7 832 4894\n
+        Dirección: Calle 13, No. 406 e/ F y G, Vedado, Plaza de la Revolución
+        </string>
+    <string name="description2">En el Restaurante Mediterráneo-Havana nos distinguimos por ofrecer
+        una selección de productos frescos y naturales que llegan directamente desde el mar y la tierra.
+        </string>
+    <string name="description3">Contamos con producción y elaboración propia, ausente de conservantes y aditivos,
+        controlando en cada momento la calidad de cuanto ofrecemos.</string>
+    <string name="description4">Nuestro equipo de cocina combina tradiciones mediterráneas,
+        de la mano de Luigi, nuestro chef, oriundo de la Cerdeña, con la fusión y experiencia
+        de la cocina local.</string>
+    <string name="description5">Esperamos que la pasión que acá todos ponemos a su servicio,
+        logre satisfacerle con este ambiente y sabor mediterráneo, ideado para hacerle sentir en familia.</string>
     <string name="about_us">Acerca de nosotros</string>
     <string name="read_more">Leer más</string>
     <string name="staff">Personal</string>
     <string name="staff_habanera" translatable="false">Staff Habanera</string>
     <string name="my_order_erased">Borrada \'Mi orden\'</string>
-    <string name="menu_mediterraneo">Mediterraneo Havana</string>
+    <string name="menu_mediterraneo" translatable="false">Mediterraneo Havana</string>
+    <string name="biopropiedades">Biopropiedades</string>
 </resources>
