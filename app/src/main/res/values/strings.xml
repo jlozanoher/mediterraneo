@@ -27,13 +27,13 @@
     <string name="added_one">+1</string>
     <string name="order_eliminated">orden eliminada</string>
     <string name="toggled_favorites">Cambiado favorito</string>
-    <string name="invitation">Oferta!!!\nTe invito a Coctel y Tapa en Restaurante HABANERA\nHaz reserva\n72029941\nEl resto va por ti</string>
+    <string name="invitation">Oferta!!!\nTe invito a Coctel y Tapa en Restaurante Mediterraneo Havana\nHaz reserva\n+53 7 832 4894\nEl resto va por ti</string>
     <string name="earn_money">Gana dinero !</string>
     <string name="earn_money_maecenas">Únete a MECENAS!</string>
-    <string name="maecenas_description">Mecenas es todo aquel que desee invitar a sus amigos a consumir gratuitamente un coctel y una tapa en Habanera \n\n
+    <string name="maecenas_description">Mecenas es todo aquel que desee invitar a sus amigos a consumir gratuitamente un coctel y una tapa en Mediterraneo Havana \n\n
         Mecenas abre una cuenta para usted, donde acumula un crédito a partir de los amigos que nos envíe. \n\n
         Hágase mecenas mediante un sms</string>
-    <string name="habanera_number" translatable="false">5355118723</string>
+    <string name="phone_number" translatable="false"> +53 7 832 4894</string>
     <string name="maecenas_request">Solicito registrarme como mecenas\nmi nombre es\n</string>
     <string name="join_maecenas">Únete a mecenas!</string>
     <string name="language">Lenguaje</string>

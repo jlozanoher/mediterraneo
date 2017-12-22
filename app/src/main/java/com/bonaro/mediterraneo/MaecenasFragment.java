@@ -63,7 +63,7 @@ public class MaecenasFragment extends DialogFragment {
                 if(mActivityComs != null)
                     mActivityComs.enableInviteFriends();
                 Intent smsIntent = new Intent(Intent.ACTION_VIEW);
-                smsIntent.putExtra("address", getString(R.string.habanera_number));
+                smsIntent.putExtra("address", getString(R.string.phone_number));
                 smsIntent.putExtra("sms_body", getString(R.string.maecenas_request));
 //                smsIntent.setData(Uri.parse("smsto:"));
                 smsIntent.setType("vnd.android-dir/mms-sms");

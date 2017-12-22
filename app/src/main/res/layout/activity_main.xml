@@ -11,35 +11,37 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/appbar_padding_top"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <LinearLayout
+            android:layout_height="88dp"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            >
-
-            <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/banner1">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                app:titleTextColor="@color/primary_light"
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="match_parent">
+                android:layout_height="?attr/actionBarSize">
 
-                <ImageView
-                    android:id="@+id/media_image"
-                    android:layout_width="wrap_content"
-                    android:src="@drawable/logo"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="new post image"
-                    android:scaleType="centerCrop"
-                    android:visibility="visible"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    >
 
-                <!--<TextView-->
+                    <ImageView
+                        android:id="@+id/media_image"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/logo"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="new post image"
+                        android:scaleType="centerCrop"
+                        android:visibility="visible"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+                    <!--<TextView-->
                     <!--android:layout_width="wrap_content"-->
                     <!--android:layout_height="match_parent"-->
                     <!--android:fontFamily="sans-serif-condensed"-->
@@ -49,30 +51,34 @@
                     <!--android:textSize="24sp"-->
                     <!--android:textStyle="bold|italic" />-->
 
-                <ImageView
-                    android:id="@+id/habanera_image"
-                    android:layout_width="wrap_content"
-                    android:src="@drawable/title"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="new post image"
-                    android:scaleType="centerCrop"
-                    android:layout_gravity="center"
-                    android:visibility="visible"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin"/>
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/habanera_image"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/title"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="new post image"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+                </LinearLayout>
 
-        </android.support.v7.widget.Toolbar>
+            </android.support.v7.widget.Toolbar>
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tablayout"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            app:tabMode="scrollable"
-            app:tabTextColor="@color/primary_text"
-            app:tabSelectedTextColor="@color/primary_text"
-            app:tabIndicatorColor="@color/primary_text"
-            />
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:tabMode="scrollable"
+                app:tabTextColor="@color/primary_light"
+                app:tabSelectedTextColor="@color/primary_light"
+                app:tabIndicatorColor="@color/primary_light"
+                />
+
+        </LinearLayout>
+
+
 
     </android.support.design.widget.AppBarLayout>
 
