@@ -65,10 +65,20 @@ public class Grupo {
         mOfertaList.add(oferta);
     }
 
+//    static public String getQueryGroupsByCard(int languageId, int cartaID){
+//        return "Select Grupo_idioma.grupo_fk as id, Grupo_idioma.nombre, Grupo_idioma.descripcion, Grupo.imagen \n" +
+//                "from Carta , Oferta, Grupo inner join Grupo_idioma on Grupo.id = Grupo_idioma.grupo_fk\n" +
+//                "where Carta.id = Oferta.carta_fk and Grupo.id = Oferta.grupo_fk and Carta.id = " + cartaID +
+//                "\nand Grupo_idioma.idioma_fk = " + languageId + " group by Grupo_idioma.grupo_fk";
+//    }
+
     static public String getQueryGroupsByCard(int languageId, int cartaID){
-        return "Select Grupo_idioma.grupo_fk as id, Grupo_idioma.nombre, Grupo_idioma.descripcion, Grupo.imagen \n" +
-                "from Carta , Oferta, Grupo inner join Grupo_idioma on Grupo.id = Grupo_idioma.grupo_fk\n" +
-                "where Carta.id = Oferta.carta_fk and Grupo.id = Oferta.grupo_fk and Carta.id = " + cartaID +
-                "\nand Grupo_idioma.idioma_fk = " + languageId + " group by Grupo_idioma.grupo_fk";
+        return "Select grupo_idioma.grupo_fk as id, grupo_idioma.nombre, grupo_idioma.descripcion, grupo.imagen\n" +
+                "from carta , oferta, oferta_carta, grupo\n" +
+                "inner join grupo_idioma on grupo.id = grupo_idioma.grupo_fk\n" +
+                "where carta.id = oferta_carta.carta_fk and  oferta_carta.oferta_fk = oferta.id and grupo.id = oferta.grupo_fk and \n" +
+                "carta.id = " + cartaID + "\n" +
+                "and grupo_idioma.idioma_fk = " + languageId +"\n" +
+                "group by grupo_idioma.grupo_fk";
     }
 }

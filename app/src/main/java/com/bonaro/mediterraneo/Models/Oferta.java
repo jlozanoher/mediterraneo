@@ -247,12 +247,22 @@ public class Oferta implements Parcelable {
         return mIndexInCard;
     }
 
+//    public static String getSelectQuery(int idioma_id, int carta_id, int grupo_id){
+//        return  "select * from Oferta inner join Oferta_idioma on Oferta.id = Oferta_idioma.oferta_fk" +
+//                " where Oferta_idioma.idioma_fk = " + idioma_id +
+//                " and Oferta.carta_fk = " + carta_id +
+//                " and Oferta.grupo_fk = " + grupo_id +
+//                " group by Oferta_idioma.oferta_fk";
+//    }
+
     public static String getSelectQuery(int idioma_id, int carta_id, int grupo_id){
-        return  "select * from Oferta inner join Oferta_idioma on Oferta.id = Oferta_idioma.oferta_fk" +
-                " where Oferta_idioma.idioma_fk = " + idioma_id +
-                " and Oferta.carta_fk = " + carta_id +
-                " and Oferta.grupo_fk = " + grupo_id +
-                " group by Oferta_idioma.oferta_fk";
+        return  "select o.*, oi.descripcion, oi.nombre, oi.biopropiedades\n" +
+                "from oferta o inner join oferta_idioma oi on o.id = oi.oferta_fk\n" +
+                "inner join Oferta_carta oc on oc.oferta_fk = o.id\n" +
+                "inner join carta c on c.id = oc.carta_fk\n" +
+                "where c.id =" + carta_id + "\n" +
+                "and oi.idioma_fk = " + idioma_id + "\n" +
+                "and o.grupo_fk = " + grupo_id;
     }
 
     @Override

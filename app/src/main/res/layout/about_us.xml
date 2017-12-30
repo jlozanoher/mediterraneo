@@ -13,12 +13,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/primary"
-                android:scaleType="centerInside"
-                android:src="@drawable/title" />
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/title" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,6 +54,7 @@
                     android:adjustViewBounds="true"
                     android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -60,10 +66,11 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/image2"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
                     android:adjustViewBounds="true"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+                    android:scaleType="centerInside"
+                    android:src="@drawable/image2" />
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -113,14 +120,14 @@
                     android:adjustViewBounds="true"
                     android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="@string/staff_habanera"-->
-                    <!--android:textSize="@dimen/headline"-->
-                    <!--android:textColor="@color/primary_text"-->
-                    <!--android:layout_gravity="center_horizontal"-->
-                    <!--android:layout_marginBottom="@dimen/activity_vertical_margin"/>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/awards"
+                    android:textSize="@dimen/headline"
+                    android:textColor="@color/primary_text"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -132,20 +139,21 @@
                         android:orientation="vertical"
                         android:layout_height="wrap_content" />
 
-                    <!--<LinearLayout-->
-                        <!--android:layout_width="0dp"-->
-                        <!--android:layout_weight="0.2"-->
-                        <!--android:layout_height="wrap_content"-->
-                        <!--android:gravity="center_horizontal"-->
-                        <!--android:orientation="vertical">-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.2"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
 
-                        <!--<ImageView-->
-                            <!--android:src="@drawable/staff_irvin_manager"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:scaleType="centerInside"-->
-                            <!--android:adjustViewBounds="true"-->
-                            <!--/>-->
+                        <ImageView
+                            android:src="@drawable/trip_advisor"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            />
                         <!--<TextView-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
@@ -162,14 +170,14 @@
                             <!--android:textSize="@dimen/subhead"-->
                             <!--android:layout_marginBottom="@dimen/activity_item_margin"/>-->
 
-                        <!--<ImageView-->
-                            <!--android:src="@drawable/staff_carlos_masses_chef"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:scaleType="centerInside"-->
-                            <!--android:layout_marginBottom="@dimen/activity_vertical_margin"-->
-                            <!--android:adjustViewBounds="true"-->
-                            <!--/>-->
+                        <ImageView
+                            android:src="@drawable/trip_advisor_2016"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            />
                         <!--<TextView-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
@@ -186,13 +194,14 @@
                             <!--android:textSize="@dimen/subhead"-->
                             <!--android:layout_marginBottom="@dimen/activity_item_margin"/>-->
 
-                        <!--<ImageView-->
-                            <!--android:src="@drawable/staff_ivan_subchef"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:scaleType="centerInside"-->
-                            <!--android:adjustViewBounds="true"-->
-                            <!--/>-->
+                        <ImageView
+                            android:src="@drawable/capuccino"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            />
                         <!--<TextView-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
@@ -209,12 +218,13 @@
                             <!--android:textSize="@dimen/subhead"-->
                             <!--android:layout_marginBottom="@dimen/activity_item_margin"/>-->
 
-                        <!--<ImageView-->
-                            <!--android:src="@drawable/staff_alex_subchef"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:scaleType="centerInside"-->
-                            <!--android:adjustViewBounds="true" />-->
+                        <ImageView
+                            android:src="@drawable/eccellenze_italiane"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
                         <!--<TextView-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
@@ -231,12 +241,36 @@
                             <!--android:textSize="@dimen/subhead"-->
                             <!--android:layout_marginBottom="@dimen/activity_item_margin"/>-->
 
-                        <!--<ImageView-->
-                            <!--android:src="@drawable/staff_amanda_hostess"-->
-                            <!--android:layout_height="wrap_content"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:scaleType="centerInside"-->
-                            <!--android:adjustViewBounds="true" />-->
+                        <ImageView
+                            android:src="@drawable/international_quality_crown_award_london_2015"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+                        <ImageView
+                            android:src="@drawable/latin_america_quality_awards"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+                        <ImageView
+                            android:src="@drawable/london_quality_crown"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true" />
+
+                        <ImageView
+                            android:src="@drawable/slow_food"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:scaleType="centerInside"
+                            android:adjustViewBounds="true"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
                         <!--<TextView-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
@@ -253,7 +287,7 @@
                             <!--android:textSize="@dimen/subhead"-->
                             <!--android:layout_marginBottom="@dimen/activity_item_margin"/>-->
 
-                    <!--</LinearLayout>-->
+                    </LinearLayout>
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_weight="0.1"

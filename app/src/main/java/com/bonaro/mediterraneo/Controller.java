@@ -167,7 +167,7 @@ public class Controller {
                 cursorOferta.moveToFirst();
                 while (!cursorOferta.isAfterLast()){
 
-                    int ofertaId = cursorOferta.getInt(cursorOferta.getColumnIndex(Oferta.KEY_OFERTAFK));
+                    int ofertaId = cursorOferta.getInt(cursorOferta.getColumnIndex(Oferta.KEY_OFERTAID));
 
                     Bitmap bitmap = getBitmapFromMemCache(ofertaId); // Get cached Bitmap
 
