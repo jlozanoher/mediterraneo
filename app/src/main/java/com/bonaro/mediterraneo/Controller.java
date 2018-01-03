@@ -201,7 +201,7 @@ public class Controller {
                             cursorOferta.getString(cursorOferta.getColumnIndex(Oferta.KEY_DESCRIPCION)),
                             cursorOferta.getString(cursorOferta.getColumnIndex(Oferta.KEY_BIOPROPS)),
                             cursorOferta.getInt(cursorOferta.getColumnIndex(Oferta.KEY_GRUPOFK)),
-                            cursorOferta.getInt(cursorOferta.getColumnIndex(Oferta.KEY_CARTAFK)),
+                            cartaID,
                             cursorOferta.getDouble(cursorOferta.getColumnIndex(Oferta.KEY_PRECIO)),
                             cursorOferta.getFloat(cursorOferta.getColumnIndex(Oferta.KEY_ENERGIA)),
                             cursorOferta.getFloat(cursorOferta.getColumnIndex(Oferta.KEY_PROTEINA)),
@@ -225,6 +225,7 @@ public class Controller {
                     totalPay += oferta.getPrecio() * oferta.getVecesParaComprar();
                     ofertaList.add(oferta);
                     if(oferta.getVecesParaComprar() > 0){
+                        Log.d("loz", "cartaID: " + cartaID + ", " + oferta.getNombre() + ": " + oferta.getVecesParaComprar());
                         myOffers.add(oferta);
                     }
                     cursorOferta.moveToNext();
@@ -305,11 +306,21 @@ public class Controller {
         mMyChoosenCard.updateOferta(oferta);
 
         mdb = mDatabase.getWritableDatabase();
+
         ContentValues values = new ContentValues();
 
         values.put(Oferta.KEY_ESFAVORITO, oferta.getEsFavorito());
+
+        mdb.update(Oferta.TABLE_OFERTA, values, Oferta.KEY_OFERTAID + "=" + oferta.getId(), null);
+
+        int cartaID = oferta.getCartaFK();
+        values = new ContentValues();
         values.put(Oferta.KEY_VECESPARACOMPRAR, oferta.getVecesParaComprar());
-        long result = mdb.update(Oferta.TABLE_OFERTA, values, Oferta.KEY_OFERTAID + "=" + oferta.getId(), null);
+        long result = mdb.update(Oferta.TABLE_OFERTA_CARTA, values,
+                Oferta.KEY_OFERTAFK + "=" + oferta.getId() + " and " + Oferta.KEY_CARTAFK + "=" + cartaID,
+                null);
+        Log.d("loz", "updateOferta: " + oferta.getId() + " carta: " + cartaID +
+                " vecesParaComprar: " + oferta.getVecesParaComprar() + " rows afected:" + result);
         mdb.close();
         return result;
     }

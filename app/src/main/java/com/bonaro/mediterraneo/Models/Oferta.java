@@ -10,6 +10,7 @@ import android.os.Parcelable;
 public class Oferta implements Parcelable {
     public static final String TABLE_OFERTA = "Oferta";
     public static final String TABLE_OFERTA_LANG = "Oferta_idioma";
+    public static final String TABLE_OFERTA_CARTA = "Oferta_carta";
 
     public static final String KEY_OFERTAID = "id";
 
@@ -256,7 +257,7 @@ public class Oferta implements Parcelable {
 //    }
 
     public static String getSelectQuery(int idioma_id, int carta_id, int grupo_id){
-        return  "select o.*, oi.descripcion, oi.nombre, oi.biopropiedades\n" +
+        return  "select o.*, oi.descripcion, oi.nombre, oi.biopropiedades, oc.vecesParaComprar\n" +
                 "from oferta o inner join oferta_idioma oi on o.id = oi.oferta_fk\n" +
                 "inner join Oferta_carta oc on oc.oferta_fk = o.id\n" +
                 "inner join carta c on c.id = oc.carta_fk\n" +
