@@ -27,22 +27,25 @@
     <string name="added_one">+1</string>
     <string name="order_eliminated">order eliminated</string>
     <string name="toggled_favorites">Toggled favorite</string>
-    <string name="invitation">Offer !!!\nI invite you to Cocktail and Tapa in Restaurante Mediterraneo Havana\nMake reservation\n+53 7 832 4894\nThe rest goes for you</string>
+    <string name="invitation">Offer !!!\nI invite you to Cocktail in Restaurante Mediterraneo Havana\nMake reservation\n+53 7 832 4894\nThe rest goes for you</string>
     <string name="earn_money">Earn money !</string>
     <string name="earn_money_maecenas">Join MAECENAS!</string>
-    <string name="maecenas_description">Maecenas is everyone who wants to invite their friends to consume for free a cocktail and a tapa in Mediterraneo Havana  \n \n
-         Maecenas opens an account for you, where you accumulate a credit from the friends you send us. \n \n
-         Become a maecenas by SMS</string>
+    <string name="maecenas_description">
+        Maecenas is everyone who wants to invite their friends and contacts to visit our restaurant.
+        For them, the restaurant offers a free cocktail. For each new Maecena, our restaurant opens a count in which he will accumulate credit
+        for each one of his friends who visits us.\n\n
+        Also, if you wish, your name will be inscribed for future invitations in our activities.
+        Your friends and contacts only need to make reservation by this phone +537 832 4894\n
+        Or present on your name to our Room Captain.
+    </string>
     <string name="maecenas_request">I request to register as a maecenas\nmy name is\n</string>
     <string name="join_maecenas">Join maecenas!</string>
     <string name="language">Language</string>
     <string name="select_language">Select the language</string>
     <string name="location">Locate on map</string>
     <string name="title_description">Description</string>
-    <string name="description">
-         Hours: 12:00 M to 12:00 AM.\n\n
-         Phone: +53 7 832 4894\n
-         </string>
+    <string name="description">"Hours: 12:00 M to 12:00 AM.\n\n  Phone: +53 7 832 4894\n\n Address: Street 13, No. 406 e/ F y G, Vedado, Plaza de la Revolución\n\n
+    Site: www.medhavana.com"</string>
     <string name="description2">The Mediterranean-Havana restaurant offers a selection of fresh
         and natural products that come directly from the sea and the land.</string>
     <string name="description3">We are provided by local
@@ -60,4 +63,7 @@
     <string name="my_order_erased">\'My order\' erased</string>
     <string name="biopropiedades">Bioproperties</string>
     <string name="awards">Awards</string>
+    <string name="chef_ejecutivo">Chef Executive</string>
+    <string name="capitan">Captain</string>
+    <string name="recepcionista">Receptionist</string>
 </resources>

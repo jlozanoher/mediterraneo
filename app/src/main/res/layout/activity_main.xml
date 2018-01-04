@@ -17,7 +17,7 @@
             android:layout_height="88dp"
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/banner1">
+            >
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 app:titleTextColor="@color/primary_light"
@@ -54,13 +54,13 @@
                     <ImageView
                         android:id="@+id/imgTitle"
                         android:layout_width="wrap_content"
-                        android:layout_height="27dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginRight="@dimen/activity_horizontal_margin"
                         android:adjustViewBounds="true"
                         android:contentDescription="new post image"
                         android:scaleType="fitXY"
-                        android:src="@drawable/title_black"
+                        android:src="@drawable/title"
                         android:visibility="visible" />
                 </LinearLayout>
 
@@ -71,9 +71,9 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 app:tabMode="scrollable"
-                app:tabTextColor="@color/primary_light"
-                app:tabSelectedTextColor="@color/primary_light"
-                app:tabIndicatorColor="@color/primary_light"
+                app:tabTextColor="@color/primary_text"
+                app:tabSelectedTextColor="@color/primary_text"
+                app:tabIndicatorColor="@color/primary_text"
                 />
 
         </LinearLayout>
