@@ -2,6 +2,7 @@ package com.bonaro.mediterraneo;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
@@ -34,6 +35,10 @@ public class AboutusFragment extends DialogFragment {
         LayoutInflater inflater = getActivity().getLayoutInflater();
 
         View view = inflater.inflate(R.layout.about_us, null);
+
+        TextView tx = (TextView)view.findViewById(R.id.txtTitle);
+        Typeface custom_font = Typeface.createFromAsset(getActivity().getAssets(),  "fonts/CASBANTN.TTF");
+        tx.setTypeface(custom_font);
 
 //        final Button btnReadMore = (Button) view.findViewById(R.id.btnReadMore);
         final TextView txtDescription = (TextView) view.findViewById(R.id.txtDescripcion);

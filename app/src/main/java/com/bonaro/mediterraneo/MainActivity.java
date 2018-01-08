@@ -3,6 +3,7 @@ package com.bonaro.mediterraneo;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,6 +21,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.bonaro.mediterraneo.Models.Carta;
 
@@ -52,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements ActivityComs {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView tx = (TextView)findViewById(R.id.txtTitle);
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/CASBANTN.TTF");
+        tx.setTypeface(custom_font);
 
         //gets the current TelephonyManager
         TelephonyManager tm = (TelephonyManager) getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
