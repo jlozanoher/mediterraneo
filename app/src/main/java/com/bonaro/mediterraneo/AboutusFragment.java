@@ -36,9 +36,9 @@ public class AboutusFragment extends DialogFragment {
 
         View view = inflater.inflate(R.layout.about_us, null);
 
-        TextView tx = (TextView)view.findViewById(R.id.txtTitle);
-        Typeface custom_font = Typeface.createFromAsset(getActivity().getAssets(),  "fonts/CASBANTN.TTF");
-        tx.setTypeface(custom_font);
+//        TextView tx = (TextView)view.findViewById(R.id.txtTitle);
+//        Typeface custom_font = Typeface.createFromAsset(getActivity().getAssets(),  "fonts/CASBANTN.TTF");
+//        tx.setTypeface(custom_font);
 
 //        final Button btnReadMore = (Button) view.findViewById(R.id.btnReadMore);
         final TextView txtDescription = (TextView) view.findViewById(R.id.txtDescripcion);

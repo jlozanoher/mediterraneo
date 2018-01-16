@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity implements ActivityComs {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView tx = (TextView)findViewById(R.id.txtTitle);
-        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/CASBANTN.TTF");
-        tx.setTypeface(custom_font);
+//        TextView tx = (TextView)findViewById(R.id.txtTitle);
+//        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/CASBANTN.TTF");
+//        tx.setTypeface(custom_font);
 
         //gets the current TelephonyManager
         TelephonyManager tm = (TelephonyManager) getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
